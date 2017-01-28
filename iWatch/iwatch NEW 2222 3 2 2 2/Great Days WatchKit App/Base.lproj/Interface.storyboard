@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RLZ-wy-U6W">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--InterfaceController-->
+        <scene sceneID="6d3-rU-2hE">
+            <objects>
+                <controller identifier="InterfaceController" id="Bin-tr-qUj" customClass="InterfaceController">
+                    <items>
+                        <button width="1" height="151" alignment="center" verticalAlignment="center" id="YDk-Kx-Tah">
+                            <connections>
+                                <action selector="button_action" destination="Bin-tr-qUj" id="UBp-Gt-3ub"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="YDk-Kx-Tah" id="jr5-z9-ApZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="237" y="144"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="yRw-x7-5J2">
+            <objects>
+                <notificationController id="Txa-nx-hva">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="Gkc-hC-sfq"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="Mxf-Rq-NXA"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="Gkc-hC-sfq" id="J6H-FV-U7q"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="330" y="432"/>
+        </scene>
+        <!--secondfacecontroller-->
+        <scene sceneID="OVd-gd-u20">
+            <objects>
+                <controller identifier="secondfacecontroller" id="zIA-RS-INh" customClass="secondfacecontroller">
+                    <items>
+                        <group width="1" height="151" alignment="center" verticalAlignment="center" id="ZxJ-jt-9Gp">
+                            <items>
+                                <group width="1" height="40" alignment="center" verticalAlignment="bottom" backgroundImage="Rounded-Rectangle" id="LW3-fv-55f">
+                                    <items>
+                                        <group width="42" height="40" alignment="left" id="u4y-EQ-Qvr">
+                                            <items>
+                                                <group width="32" height="36" alignment="center" verticalAlignment="center" backgroundImage="event_pantagun" layout="vertical" spacing="0.0" id="2MJ-oC-jzl">
+                                                    <items>
+                                                        <label alignment="center" verticalAlignment="center" text="Label" id="PqR-Ve-vpK">
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <fontDescription key="font" type="system" pointSize="12"/>
+                                                        </label>
+                                                    </items>
+                                                </group>
+                                            </items>
+                                        </group>
+                                        <group width="95" alignment="right" verticalAlignment="center" layout="vertical" id="Tdn-qU-eS2">
+                                            <items>
+                                                <label width="90" alignment="right" text="Label" id="gGi-rR-LqS">
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                                </label>
+                                                <label width="90" alignment="right" verticalAlignment="bottom" text="Label" id="L6R-Of-iSh">
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="event_title" destination="L6R-Of-iSh" id="F0A-pa-EWE"/>
+                        <outlet property="group" destination="ZxJ-jt-9Gp" id="WT9-JY-ymy"/>
+                        <outlet property="group_for_yellow_image" destination="2MJ-oC-jzl" id="viB-gI-eTG"/>
+                        <outlet property="inner_group" destination="LW3-fv-55f" id="QSv-4k-6YI"/>
+                        <outlet property="label_in_yellow" destination="PqR-Ve-vpK" id="bkB-ER-rKK"/>
+                        <outlet property="unit_label" destination="gGi-rR-LqS" id="FVY-ak-lDU"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="453" y="144"/>
+        </scene>
+        <!--MainInterfaceController-->
+        <scene sceneID="lUg-4h-6Wq">
+            <objects>
+                <controller identifier="MainInterfaceController" id="RLZ-wy-U6W" customClass="MainInterfaceController"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="144"/>
+        </scene>
+    </scenes>
+</document>

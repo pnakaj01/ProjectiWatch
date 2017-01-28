@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a1659e97-dc1e-44bc-be25-1f10407f2805",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a1659e97-dc1e-44bc-be25-1f10407f2805" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a1659e97-dc1e-44bc-be25-1f10407f2805" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1600E14B-E063-4ED2-BF77-AC9D1A40B3D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a1659e97-dc1e-44bc-be25-1f10407f2805" : "iWatch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iwatch30may",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iwatch NEW 2222 3 2 2 2\/iwatch30may.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.10.10.88\/nteamios\/iWatch",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a1659e97-dc1e-44bc-be25-1f10407f2805"
+    }
+  ]
+}
